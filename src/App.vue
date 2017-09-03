@@ -25,7 +25,6 @@
       addTodo(text) {
         this.todos.push({
           text: text,
-          complete: false,
         });
       }
     }

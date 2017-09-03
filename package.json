@@ -2,7 +2,7 @@
   "name": "vue-todo",
   "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "Yasuhiro Kume <yasu_figure8@yahoo.co.jp>",
+  "author": "Yasuhiro Kume",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
