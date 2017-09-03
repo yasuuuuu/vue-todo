@@ -1,6 +1,6 @@
 <template>
   <li v-if="isShow">
-    <input type="checkbox" v-model="todoChecked">
+    <input type="checkbox" v-model="isChecked">
     <span :class="{ gray: todoChecked }">{{ todo.text }}</span>
     <button @click="deleteTodo">Delete</button>
   </li>
@@ -13,7 +13,7 @@
     },
     data() {
       return {
-        todoChecked: false,
+        isChecked: false,
         isShow: true,
       }
     },
