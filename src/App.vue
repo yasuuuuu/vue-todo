@@ -1,13 +1,12 @@
 <template>
   <div>
-    <Header></Header>
-    <TodoInput :addFn="addTodo"></TodoInput>
-    <TodoList :todos="todos"></TodoList>
+    Todo-list
+    <todo-input :addFn="addTodo"></todo-input>
+    <todo-list :todos="todos"></todo-list>
   </div>
 </template>
 
 <script>
-  import Header from './components/Shared/Header.vue';
   import TodoInput from './components/Todo/TodoInput.vue';
   import TodoList from './components/Todo/TodoList.vue';
   export default {
@@ -17,7 +16,6 @@
       }
     },
     components: {
-      Header,
       TodoInput,
       TodoList,
     },
