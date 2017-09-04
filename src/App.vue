@@ -21,14 +21,11 @@
     },
     methods: {
       addTodo(text) {
-        this.todos.push({
-          text: text,
-        });
+        this.todos.push({ text });
       }
     }
   }
 </script>
 
 <style lang="scss">
-
 </style>
